@@ -1,6 +1,6 @@
 NOTE: This project was developed as a part of my Operating System course in 2012, and has not been maintained since. The main ideas in this project are taken from the Operating System Concepts book by Abraham Silberschatz, Greg Gagne, and Peter Baer Galvin. The underlying VM is based on the specifications which can be found in the project.
 
-Version: 1.0 (alpha)
+Version : 1.0 (alpha)
 IDE		: Eclipse Indigo
 Language	: Java
 
