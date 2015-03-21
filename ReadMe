@@ -1,0 +1,10 @@
+Author: Muhammad Ali Syed
+Version: 1.0 (alpha)
+IDE		: Eclipse Indigo
+Language	: Java
+
+Notes:
+Please note that that project "will not work" if AWT and SWT libraries are not installed.
+Make sure you click the green "StartupVM" button before you process any files.
+
+Every function is either well documented, or its functionality can be easily comprehended using its identifier’s name.
