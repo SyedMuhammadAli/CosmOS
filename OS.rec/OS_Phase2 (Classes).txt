@@ -1,0 +1,22 @@
+Dispatcher:
+0) Given a filename.
+1) loads a program info memory given that sufficient frames are avialable
+2) creates a PCB for the given program once the program in loaded into memory.
+3) updates the pageTable inside the PCB with the frame numbers in which the program is loaded
+4) Writes the PCB to the kernel space.
+5) Adds the process ID to the ready queue.
+
+PCB:
+0) Holds information of a process along with its current state (registers)
+1) Provides interfact to manipulate that information.
+
+MMU:
+0) Adds an abstraction layer "over" the memory to "trick" the program into believing that it has contigeous memory locations.
+1) Maintains a list of free frames using table data structure.
+2) Accepts a logical address and translates that into a physical address that resides in memory.
+3) Performs error checking to see if a program in not violating the "address space" of other programs.
+
+Scheduler:
+0) schedules a process and loads its PCB from the memory.
+1) once the execution is done it writes the PCB back to the
+memory

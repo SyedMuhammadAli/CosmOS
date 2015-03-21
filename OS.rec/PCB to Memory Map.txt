@@ -1,0 +1,11 @@
+32 shorts (reg) x2
+procID
+procPri
+procSize1
+procSize2
+wt 1
+wt 2
+et 1
+et 2
+pgtbSize
+56bytes
